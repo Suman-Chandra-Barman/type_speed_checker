@@ -138,7 +138,7 @@ startBtn.addEventListener("click", function () {
     const timeSpent = (currentTime - startTime) / 1000;
 
     document.getElementById("show-time").innerHTML = `${
-      startTime ? timeSpent : 0
+      startTime ? timeSpent.toFixed() : 0
     } seconds`;
   }, 1000);
 });
