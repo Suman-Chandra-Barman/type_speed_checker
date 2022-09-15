@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interview questiones</title>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <details>
+        <summary>
+          1. What is the difference between local storage and session storage?
+        </summary>
+        <p>
+          The difference between sessionStorage and localStorage is that
+          localStorage data does not expire, whereas sessionStorage data is
+          cleared when the page session ends. A unique page session gets created
+          once a document is loaded in a browser tab. Page sessions are valid
+          for only one tab at a time.
+        </p>
+      </details>
+      <details>
+        <summary>
+          2. What is difference between global scope and block scope?
+        </summary>
+        <p>
+          Global Scope : Variables declared Globally (outside any function) have
+          Global Scope. Global variables can be accessed from anywhere in a
+          JavaScript program. Variables declared with var, let and const are
+          quite similar when declared outside a block. They all have Global
+          Scope.
+          <br />
+          <br />
+          Block Scope : Before ES6 (2015), JavaScript had only Global Scope and
+          Function Scope. ES6 introduced two important new JavaScript keywords:
+          let and const. These two keywords provide Block Scope in JavaScript.
+          Variables declared inside a { } block cannot be accessed from outside
+          the block.
+        </p>
+      </details>
+      <details>
+        <summary>3. How does the Event Loop works in JavaScript?</summary>
+        <p>
+          The Event Loop has one simple job — to monitor the Call Stack and the
+          Callback Queue. If the Call Stack is empty, the Event Loop will take
+          the first event from the queue and will push it to the Call Stack,
+          which effectively runs it. Such an iteration is called a tick in the
+          Event Loop.
+        </p>
+      </details>
+      <details>
+        <summary>4. How many types can we get undefined?</summary>
+        <ol>
+          <li>Variable that is not initialized will give undefined</li>
+          <li>Function with no return will give undefined</li>
+          <li>Parameter that is not passed will give undefined</li>
+          <li>If return has nothing on the right side will return undefined</li>
+          <li>Property that doesn't exists on an object will give undefined</li>
+          <li>
+            Accessing array element outside of the index range will give
+            undefined
+          </li>
+          <li>Deleteing and element inside an array will give undefined</li>
+          <li>Set a value directly to undefined</li>
+        </ol>
+      </details>
+    </main>
+  </body>
+</html>

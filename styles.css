@@ -144,16 +144,14 @@ button {
 #histories {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 25px;
 }
 
 .card {
   width: 30%;
   height: 100%;
   padding: 50px;
-  /* display: flex;
-  justify-content: space-between; */
-  /* align-items: center; */
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
