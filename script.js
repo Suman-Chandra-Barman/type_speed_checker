@@ -130,8 +130,6 @@ const start = () => {
 
 // START Countdown
 startBtn.addEventListener("click", function () {
-  // If history exists, show it
-  displayHistory();
   start();
   // Show typing time spent
   setInterval(() => {
@@ -143,4 +141,5 @@ startBtn.addEventListener("click", function () {
     } seconds`;
   }, 1000);
 });
+// If history exists, show it
 displayHistory();

@@ -38,11 +38,12 @@ body {
 #display {
   height: 100px;
   display: flex;
+  overflow-y: auto;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding: 10px 20px;
   color: white;
-  font-size: 32px;
+  font-size: 28px;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
@@ -185,6 +186,12 @@ button {
     display: flex;
     align-items: center;
     width: 100%;
+  }
+  #countdown {
+    top: -150px;
+  }
+  #question {
+    overflow-y: auto;
   }
 }
 
