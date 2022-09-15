@@ -143,3 +143,4 @@ startBtn.addEventListener("click", function () {
     } seconds`;
   }, 1000);
 });
+displayHistory();
